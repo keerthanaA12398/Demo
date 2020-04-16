@@ -1,0 +1,48 @@
+package stepdefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
+public class stepdef{
+@Given("user launches chrome browser")
+public void user_launches_chrome_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Given("user navigates to registration page")
+public void user_navigates_to_registration_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Given("user enters the username")
+public void user_enters_the_username() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Given("user enter the password")
+public void user_enter_the_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Given("user enters the confirm password")
+public void user_enters_the_confirm_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Given("user click submit")
+public void user_click_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Then("user verify successful")
+public void user_verify_successful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+}

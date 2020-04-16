@@ -1,0 +1,75 @@
+package stepdefinition;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class stepdef {
+	WebDriver driver;
+	@Given("user launches chrome browser")
+	public void user_launches_chrome_browser() {
+	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Downloads\\chromedriver.exe");
+	    driver=new ChromeDriver();
+	    driver.get("https://lkmdemoaut.accenture.com/TestMeApp/fetchcat.htm");
+	}
+	@When("user tes to signup page")
+	public void user_tes_to_signup_page() {
+	    driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/div/div/div[2]/div/ul/li[2]/a"));
+	}
+
+	@When("user enters with user name as {string}")
+	public void user_enters_with_user_name_as(String string) {
+	    driver.findElement(By.name("userName"));
+	}
+
+	@When("user enters with first name as {string}")
+	public void user_enters_with_first_name_as(String string) {
+	    driver.findElement(By.name("firstName"));
+	}
+
+	@When("user enters with last name as {string}")
+	public void user_enters_with_last_name_as(String string) {
+	    driver.findElement(By.name("lastName"));
+	}
+	@When("user enter the password as {string}")
+	public void user_enter_the_password_as(String string) {
+	  driver.findElement(By.name("password"));
+	}
+
+	@When("user enters the confirm password as {string}")
+	public void user_enters_the_confirm_password_as(String string) {
+	    driver.findElement(By.name("confirmPassword"));
+	}
+	@When("user enters the gender as {string}")
+	public void user_enters_the_gender_as(String string) {
+	    driver.findElement(By.name("gender"));
+	}
+
+	@When("user enters the mobile number as {string}")
+	public void user_enters_the_mobile_number_as(String string) {
+	    driver.findElement(By)
+	}
+
+	@When("user enters the DOB as {string}")
+	public void user_enters_the_DOB_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters the Security Question as {string}")
+	public void user_enters_the_Security_Question_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters the Answer as {string}")
+	public void user_enters_the_Answer_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+
+}

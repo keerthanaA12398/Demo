@@ -1,0 +1,10 @@
+Feature: Test registration functionality
+
+Scenario: Test Registration with valid inputs
+Given user launches chrome browser
+And user navigates to registration page
+And user enters the username as "santhoshkumar"
+And user enter the password as "password@1"
+And user enters the confirm password as "password@1"
+And user click submit
+Then user verify successful

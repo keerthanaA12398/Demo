@@ -1,0 +1,61 @@
+package stepdefinition;
+
+import cucumber.api.java.en.When;
+
+public class stepdef {
+	@When("user tes to signup page")
+	public void user_tes_to_signup_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters with user name as {string}")
+	public void user_enters_with_user_name_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters with first name as {string}")
+	public void user_enters_with_first_name_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters with last name as {string}")
+	public void user_enters_with_last_name_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters the gender as {string}")
+	public void user_enters_the_gender_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters the mobile number as {string}")
+	public void user_enters_the_mobile_number_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters the DOB as {string}")
+	public void user_enters_the_DOB_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters the Security Question as {string}")
+	public void user_enters_the_Security_Question_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("user enters the Answer as {string}")
+	public void user_enters_the_Answer_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+
+}

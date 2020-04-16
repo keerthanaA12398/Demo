@@ -1,0 +1,57 @@
+package stepdefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
+public class stepdef{
+@Given("user launches chrome browser")
+public void user_launches_chrome_browser() {
+    System.out.println("user lauches the chrome browser");
+}
+
+@Given("user navigates to registration page")
+public void user_navigates_to_registration_page() {
+    System.out.println("user navigates to registration page");
+}
+
+@Given("user enters the username")
+public void user_enters_the_username() {
+    System.out.println("user enters the username");
+}
+
+@Given("user enter the password")
+public void user_enter_the_password() {
+   System.out.println("user enters the passwors");
+}
+
+@Given("user enters the confirm password")
+public void user_enters_the_confirm_password() {
+    System.out.println("user enters the confirm passowrd");
+}
+
+@Given("user click submit")
+public void user_click_submit() {
+   System.out.println("user click submit");
+}
+
+@Then("user verify successful")
+public void user_verify_successful() {
+    System.out.println("user verify sucess");
+}
+@Given("user enters the username as {string}")
+public void user_enters_the_username_as(String un) {
+    System.out.println("username is" +un);
+}
+
+@Given("user enter the password as {string}")
+public void user_enter_the_password_as(String pwd) {
+	System.out.println("password is" +pwd);
+   
+}
+
+@Given("user enters the confirm password as {string}")
+public void user_enters_the_confirm_password_as(String cpwd) {
+	System.out.println("confirm is" +cpwd);
+   
+}
+}
